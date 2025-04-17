@@ -1,5 +1,8 @@
 //import elements
 import Button from "./components/Button";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 //Elements: home, about, button, header, footer
 
@@ -20,6 +23,7 @@ function App() {
     <div className="layout">
       React demo
       <div>
+        <Home />
         <Button text="Click Me" backgroundColor="black"></Button>
       </div>
     </div>

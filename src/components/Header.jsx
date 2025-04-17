@@ -7,7 +7,7 @@ import Button from "./Button";
 import "../styles/header.css";
 
 //title as prop, so that the header title can change depending on page
-//helena skrev """onClick{() => onNavigate("home")}""""
+//() => onNavigate("home"), is an arrow function bc it is short hand for the eventlistener. If you omit the "() =>" and just have the function it will run constrantly and not ju onClick
 const Header = ({ title, onNavigate }) => {
   return (
     <header>
@@ -16,12 +16,12 @@ const Header = ({ title, onNavigate }) => {
         <Button
           text="Home"
           backgroundColor="green"
-          onClick={onNavigate("home")}
+          onClick={() => onNavigate("home")}
         />
         <Button
           text="About"
           backgroundColor="blue"
-          onClick={onNavigate("about")}
+          onClick={() => onNavigate("about")}
         />
       </nav>
     </header>
