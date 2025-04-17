@@ -15,3 +15,7 @@ in terminal
 create vite@latest {projectname}
 choose: y, React, JavaScript,
 run: cd {projectname}, npm install, npm run dev
+
+components folder -> for components, all should be capitalized (except main)
+
+components must be exported in their files, and imported in App.jsx
