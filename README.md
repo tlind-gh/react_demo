@@ -18,4 +18,6 @@ run: cd {projectname}, npm install, npm run dev
 
 components folder -> for components, all should be capitalized (except main)
 
+styles folder -> for css style files, NOT capitalized
+
 components must be exported in their files, and imported in App.jsx
