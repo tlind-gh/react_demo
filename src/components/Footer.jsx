@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <p>&copy; {year}, My First React App</p>
+      <p>&copy; {year}, React Demo App</p>
     </footer>
   );
 };
