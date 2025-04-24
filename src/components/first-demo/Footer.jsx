@@ -1,7 +1,7 @@
 //Footer component
 
 //import footer css file
-import "../styles/footer.css";
+import "../../styles/footer.css";
 
 const Footer = () => {
   //get the current yeat from the built in Date class
@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <p>&copy; {year}, React Demo App</p>
+      <p>&copy; {year} React Demo App</p>
     </footer>
   );
 };

@@ -2,7 +2,7 @@
 ubiquotus button that should be able to recieve different links/text/background color*/
 
 //import button css file
-import "../styles/button.css";
+import "../../styles/button.css";
 
 //arrow-function for Button component (must start w. a function, does not need to be arrow function, but some kind of function)
 //takes "props" (same as arguments for the function) NB! when a function is an arguments for another function, do not use parenthesis "()" at the end of function name

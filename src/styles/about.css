@@ -14,3 +14,12 @@
 p {
   margin-top: 1rem;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.link__list li {
+  text-decoration: none;
+  list-style: none;
+}
